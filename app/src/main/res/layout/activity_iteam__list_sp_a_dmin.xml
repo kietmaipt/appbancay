@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    tools:context=".Iteam_ListSpADmin">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgha"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/txttensp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/imgha"
+        android:layout_toRightOf="@+id/imgha"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Tên" />
+
+    <TextView
+        android:id="@+id/txtmasp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txttensp"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/imgha"
+        android:layout_toRightOf="@+id/imgha"
+        android:text="Email" />
+
+    <TextView
+        android:id="@+id/txtsoluong"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtmasp"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/imgha"
+        android:layout_toRightOf="@+id/imgha"
+        android:text="Phone" />
+
+    <ImageView
+        android:id="@+id/imgxoa"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="3dp"
+        android:layout_toEndOf="@+id/txttensp"
+        android:layout_toRightOf="@+id/txttensp"
+        app:srcCompat="@drawable/xoa" />
+
+    <ImageView
+        android:id="@+id/imgsua"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imgxoa"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toEndOf="@+id/txtmasp"
+        android:layout_toRightOf="@+id/txtmasp"
+        app:srcCompat="@drawable/sua" />
+
+
+</RelativeLayout>

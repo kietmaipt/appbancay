@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:background="#ffffff"
+    android:layout_marginBottom="10dp"
+    android:layout_height="90dp"
+    tools:context=".iteamListcard">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/idimg"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_toRightOf="@+id/idimg"
+            android:textColor="#000000"
+            android:id="@+id/tvten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center_vertical" />
+        <TextView
+            android:id="@+id/tvsoluong"
+            android:layout_below="@id/tvten"
+            android:layout_toRightOf="@+id/idimg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center_vertical" />
+        <TextView
+            android:layout_below="@id/tvsoluong"
+            android:layout_toRightOf="@+id/idimg"
+            android:id="@+id/tvgia"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="#FF0000"
+            android:text="Thanh tien"
+            android:textStyle="bold"
+            android:gravity="center_vertical" />
+
+    <ImageView
+        android:id="@+id/ivDelete"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_close" />
+
+
+</RelativeLayout>

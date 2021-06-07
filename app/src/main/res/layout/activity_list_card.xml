@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListCard">
+    <androidx.recyclerview.widget.RecyclerView
+        android:background="#C0C0C0"
+        android:id="@+id/rcvCard"
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        />
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+    <TextView
+        android:text="tong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+          <TextView
+              android:layout_marginLeft="300dp"
+              android:id="@+id/giatong"
+              android:text="giatong"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+      </LinearLayout>
+     <Button
+
+         android:id="@+id/btnbuynow"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="#8EF4B0"
+         android:text="buynow"/>
+
+
+</LinearLayout>

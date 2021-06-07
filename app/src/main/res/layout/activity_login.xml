@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/ic_background"
+    tools:context=".Login">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#7CFFFFFF"
+        android:orientation="vertical"
+        android:padding="30dp">
+        <TextView
+            android:gravity="center"
+            android:text="LOGIN"
+            android:textColor="#8EF4B0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textSize="30dp"
+            />
+
+        <EditText
+            android:id="@+id/etbgmailLG"
+            android:layout_width="379dp"
+            android:layout_height="59dp"
+            android:hint="Email"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/etbPasswordLG"
+            android:layout_width="379dp"
+            android:layout_height="59dp"
+            android:hint="Password"
+            android:inputType="text"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cbRememberPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:hint="Remember Password" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Forgot Password">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:background="#8EF4B0"
+                android:text="LOGIN"
+                />
+            <Button
+                android:id="@+id/btndangky"
+                android:layout_marginTop="10dp"
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:background="#8EF4B0"
+                android:text="dangky"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+

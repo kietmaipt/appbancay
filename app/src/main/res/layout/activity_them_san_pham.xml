@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThemSanPham">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#7CFFFFFF"
+        android:orientation="vertical"
+        android:padding="30dp">
+        <TextView
+            android:gravity="center"
+            android:text="SIGN UP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textSize="35dp"
+            android:textColor="#8EF4B0"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/edtha"
+            android:layout_width="379dp"
+            android:layout_height="59dp"
+            android:hint="link"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/edtmaSP"
+            android:layout_width="379dp"
+            android:layout_height="59dp"
+            android:hint="ma san pham"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/edttenSP"
+            android:layout_width="379dp"
+            android:layout_height="59dp"
+            android:hint="tenSp"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/edttenloai"
+            android:layout_width="379dp"
+            android:layout_height="59dp"
+            android:hint="tenloai"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/edtsoluong"
+            android:layout_width="379dp"
+            android:layout_height="59dp"
+            android:hint="soluong"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/edtgia"
+            android:layout_width="379dp"
+            android:layout_height="59dp"
+            android:hint="gia"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/edtmota"
+            android:layout_width="379dp"
+            android:layout_height="59dp"
+            android:hint="gia"
+            android:inputType="text"/>
+        <Button
+            android:id="@+id/btnThem"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#8EF4B0"
+            android:text="Them" />
+
+    </LinearLayout>
+</LinearLayout>

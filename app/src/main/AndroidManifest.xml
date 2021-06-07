@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.duan1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ChangePassword" />
+        <activity android:name=".Order_DetailUsser" />
+        <activity android:name=".UpdateSP" />
+        <activity android:name=".UpdateKhachhang" />
+        <activity android:name=".Iteam_List_KH" />
+        <activity android:name=".ListKH" >
+
+        </activity>
+        <activity android:name=".Iteam_ListSpADmin" />
+        <activity android:name=".ListSPAdMin"></activity>
+        <activity android:name=".Images" />
+        <activity android:name=".giaodienAdmin" />
+        <activity android:name=".InvoiceAdd" />
+        <activity android:name=".iteamListcard" />
+        <activity android:name=".ListCard" />
+        <activity android:name=".Evaluate" />
+        <activity
+            android:name=".ListSP"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".item_list_SP" />
+        <activity android:name=".ThemSanPham"></activity>
+        <activity android:name=".Giaodiennguoidung">
+
+        </activity>
+        <activity android:name=".Login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" >
+
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>
